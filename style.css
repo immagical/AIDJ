@@ -1,0 +1,66 @@
+#volumeDiv {
+    float : right; 
+    text-align: center;
+}
+#speedDiv {
+    text-align: center;
+    float: left;
+}
+img {
+    height: 150px;
+    border-radius: 100%;
+}
+#play {
+    font-size: 25px;
+    background-color: purple;
+    border: maroon 4px solid;
+}
+
+#play:hover {
+    background-color: maroon;
+    border: purple 4px solid;
+}
+
+.heading {
+    font-size: 30px;
+    top: 0;
+    text-shadow: 2px 2px maroon;
+    padding: 5px;
+    margin: 0; 
+    width: 100%;
+    box-shadow: 5px 5px 30px greenyellow;
+}
+
+.note {
+    font-size: 20px;
+    font-variant: small-caps;
+    margin-top: 5px;
+    text-shadow: none ;
+}
+canvas {
+    background-color: aliceblue;
+    margin-top: 150px;
+    border-radius: 20px;
+    animation: animation 4s infinite;
+}
+
+@keyframes animation {
+    0%{box-shadow : 20px 20px 30px maroon;}
+    33%{box-shadow: 10px 10px 30px goldenrod;}
+    66%{box-shadow: 10px 10px 30px blue;}
+    100%{box-shadow: 10px 10px 30px maroon;}
+}
+
+#footer {
+    bottom: 0;
+    position: fixed;
+    background-color: steelblue;
+    width: 100%;
+    text-align: center;
+    box-shadow: inset 5px 5px 20px maroon;
+}
+
+#footerText {
+    font-size: 20px; 
+    color: white; 
+}
